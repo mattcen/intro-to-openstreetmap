@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="reveal.js/css/reveal.min.css" />
     <link rel="stylesheet" href="reveal.js/css/theme/default.css"
     id="theme" />
+    <link rel="stylesheet" href="style.css" />
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css" />
     <!-- If the query includes 'print-pdf', include the PDF print sheet -->
@@ -51,10 +52,58 @@
         </section>
 
         <section>
-          <h2>What is OpenStreetMap?</h2>
-          <p>Open-source map platform</p>
-          <aside class="notes">Better than Google Maps for all the
-          reasons!</aside>
+          <section>
+            <h2>What is Open Street Map?</h2>
+            <img alt="openstreetmap.org" height="75%" width="75%"
+            src="img/osm-01.png" />
+            <p>(OpenStreetMap.org)</p>
+          </section>
+
+          <section>
+            <h2>What is Open Street Map?</h2>
+            <img alt="osmand.net" height="25%" width="25%" src="img/osmand-01.png" />
+            <p>(osmand.net)</p>
+          </section>
+
+          <section>
+            <h2>What is Open Street Map?</h2>
+            <pre><code data-trim>
+             &lt;way id="22820458" visible="true" version="6"
+             changeset="15666374" timestamp="2013-04-09T13:51:05Z"
+             user="Canley" uid="57437"&gt;
+              &lt;nd ref="245537990"/&gt;
+              [...]
+              &lt;nd ref="245537990"/&gt;
+              &lt;tag k="addr:city" v="Melbourne"/&gt;
+              &lt;tag k="addr:housenumber" v="328"/&gt;
+              &lt;tag k="addr:postcode" v="3000"/&gt;
+              &lt;tag k="addr:street" v="Swanston Street"/&gt;
+              &lt;tag k="amenity" v="library"/&gt;
+              &lt;tag k="building" v="yes"/&gt;
+              &lt;tag k="fax" v="+61 3 96394737"/&gt;
+              &lt;tag k="landmark:name" v="No value"/&gt;
+              &lt;tag k="name" v="State Library of Victoria"/&gt;
+              &lt;tag k="name:fr" v="Bibliothèque d'État du Victoria"/&gt;
+              &lt;tag k="name:zh" v="维多利亚州立图书馆"/&gt;
+              &lt;tag k="phone" v="+61 3 86647000"/&gt;
+              &lt;tag k="website" v="http://www.slv.vic.gov.au/"/&gt;
+             &lt;/way&gt;
+            </code data-trim></pre>
+            <p>(OpenStreetMap.org)</p>
+          </section>
+        </section>
+
+        <section>
+          <h2>Yeah... so... What is Open Street Map?</h2>
+          <ul>
+            <li class="fragment"><a
+              href="https://openstreetmap.org">https://openstreetmap.org</a></li>
+            <li class="fragment">Wikipedia of Google Maps</li>
+            <li class="fragment">World-wide map database</li>
+            <li class="fragment">Completely user-contributed</li>
+            <li class="fragment">Basically unrestricted use</li>
+            <li class="fragment"></li>
+          </ul>
         </section>
 
         <section>
@@ -98,6 +147,8 @@
         progress: true,
         history: true,
         center: true,
+        loop: true,
+        slideNumber: true,
 
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
