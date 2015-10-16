@@ -1,10 +1,10 @@
-sfd2014-openstreetmap
-=====================
+intro-to-openstreetmap
+======================
 
-Software Freedom Day 2014 Melbourne OpenStreetMap talk
+Intro to OpenStreetMap talk
 
 Note: this repository depends on Reveal.js, so after
 cloning, be sure to do a 'git submodule init; git submodule update'
 to grab that.
 
-View this presentation at https://mattcen.github.io/sfd2014-openstreetmap
+View this presentation at https://mattcen.github.io/intro-to-openstreetmap
