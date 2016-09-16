@@ -4,3 +4,8 @@
   box-shadow: none;
   background: none;
 }
+.reveal .footer {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
